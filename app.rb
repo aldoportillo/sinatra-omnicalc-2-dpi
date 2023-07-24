@@ -18,7 +18,7 @@ get("/wizard_add") do
 end
 
 get("/subtract") do
-  erb(:subtraction_form)
+  erb(:sub_form)
 end
 
 get("/wizard_subtract") do
@@ -31,7 +31,7 @@ get("/wizard_subtract") do
 end
 
 get("/multiply") do
-  erb(:multiplication_form)
+  erb(:mult_form)
 end
 
 get("/wizard multiply") do
